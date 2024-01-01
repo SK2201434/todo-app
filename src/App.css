@@ -47,3 +47,23 @@
 .task-button{
     margin: -32px 21px 17px 317px;
 }
+@media only screen and (max-width: 600px) {
+    .todolist {
+        width: 350px;
+        /* margin-left: -6px; */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .addbtn button {
+    margin: -15px 0px 0px 91px !important; 
+    }
+}
+
+
+
+  @media only screen and (max-width: 600px) {
+    .task-button{
+        margin: -45px 21px 17px 190px;
+    }
+  }
