@@ -9,7 +9,7 @@ function TaskList({ tasks, onTaskRemove }) {
                     <li key={index}>
                         <div className="task-item">
                         <h6>{task}</h6>
-                        <button className="task-button btn btn-primary" onClick={() => onTaskRemove(index)}>
+                        <button className="task-button btn btn-success" onClick={() => onTaskRemove(index)}>
                             Completed
                         </button>
                         </div>
