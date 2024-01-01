@@ -7,10 +7,12 @@ function TaskList({ tasks, onTaskRemove }) {
             <ul>
                 {tasks.map((task, index) => (
                     <li key={index}>
-                        <h5>{task}</h5>
+                        <div className="task-item">
+                        <h6>{task}</h6>
                         <button className="task-button btn btn-primary" onClick={() => onTaskRemove(index)}>
                             Completed
                         </button>
+                        </div>
                     </li>
                 ))}
             </ul>
